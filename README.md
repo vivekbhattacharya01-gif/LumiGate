@@ -41,5 +41,4 @@ CSS3 (Animations, Gradients, Flexbox)
 
 🔗 **Live Demo:** [Try LumiGate](https://vivek-lumigate.netlify.app)
 
-<img width="1063" height="894" alt="image" src="https://github.com/user-attachments/assets/60bdb535-9fda-4bf1-8e3c-7f3b5bd71fc9" />
 
