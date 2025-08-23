@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'poppins', sans-serif;
+}
+
+.ring {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .ring i{
+    position: absolute;
+    inset: 0;
+    border: 2px solid #ffffff99;
+    transition: 0.5s;
+} */
+
+.ring i {
+    position: absolute;
+    inset: 0;
+    border: 2px solid var(--clr);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 20px var(--clr)) 
+            drop-shadow(0 0 40px var(--clr)) 
+            drop-shadow(0 0 60px var(--clr));
+}
+
+.ring i:nth-child(1){
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 50%;
+    animation: animate 10s linear infinite;
+    /* largest ring */
+}
+
+.ring i:nth-child(2){
+    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+    animation: animate 15s linear infinite;
+    /* medium ring */
+}
+
+.ring i:nth-child(3){
+    /* border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%; */
+    border-radius: 50% 50% 40% 60% / 45% 55% 50% 50%;
+    animation: animate 20s linear infinite;
+    /* smallest ring */
+}
+
+.ring:hover{
+    border: 6px solid var(--clr);
+    filter: drop-shadow(0 0 20px var(--clr));
+}
+
+/* @keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+
+@keyframes animate {
+    0% { transform: rotate(0deg) scale(1); }
+    100% { transform: rotate(360deg) scale(1.1); }
+}
+
+/* @keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} */
+
+
+@keyframes animate2 {
+    0% { transform: rotate(360deg) scale(1.05); }
+    100% { transform: rotate(0deg) scale(1.15); }
+}
+
+.login{
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+} */
+
+
+.login h2{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.login h2:hover{
+    color: #ce05889f;
+    transform: scale(1.05);
+    text-shadow: 2px 2px 15px #fff , -2px -2px 15px #545454;
+}
+
+.login .inputBx{
+    position: relative;
+    width: 100%;
+}
+
+.login .inputBx input{
+    width: 100%;
+    position: relative;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 1.2em;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.login .inputBx input[type = "submit"]{
+    width: 100%;
+    background: #fff;
+    background: linear-gradient(32deg, 
+      rgba(87 , 18 , 93 , 1) 0%,
+      rgba(67 , 9 , 73 , 1) 30%,
+      rgba(99 , 31 , 103 , 1) 70%,
+      rgba(185 , 74 , 184 , 1) 100%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login .inputBx input[type = "submit"]:hover{
+    background: linear-gradient(
+         45deg ,
+         rgba(87 , 18 , 93 , 1) 0%,
+         rgba(67 , 9 , 73 , 1)30%,
+         rgba(99 , 31 , 103 , 1)70%,
+         rgba(185 , 74 , 184 , 1)100%
+          );
+          box-shadow: 1px 1px 15px rgba(255 , 255 , 255, 1);
+          color: #ff00a6;
+          text-shadow: 2px 3px 10px #ff75cf88 , -1px , -1px 1px #ffffff63;
+}
+
+.login .inputBx input::placeholder{
+    color: rgba(255 , 255 , 255, 0.75);
+    font-size: 0.9rem;
+}
+
+.login .links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.login .links a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.login .links a:hover{
+    color: #ff357a;
+    text-shadow: 1px 1px 10px rgba(255,255,255,0.5);
+}
