@@ -35,9 +35,9 @@ CSS3 (Animations, Gradients, Flexbox)
 
 ## 🎥 Live Demo
 
-![LumiGate Animation]()
+![LumiGate Animation](https://github.com/vivekbhattacharya01-gif/LumiGate/blob/main/LumiGate.gif?raw=true)
 
-<video src="./images/lumigate-demo.mp4" width="500" autoplay loop muted></video>
+[<video src="./images/lumigate-demo.mp4" width="500" autoplay loop muted></video>](https://github.com/vivekbhattacharya01-gif/LumiGate/blob/main/LumiGate.gif?raw=true)
 
 🔗 **Live Demo:** [Try LumiGate](https://vivek-lumigate.netlify.app)
 
