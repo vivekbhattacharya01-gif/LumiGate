@@ -1,44 +1,91 @@
-🌌 LumiGate – Futuristic Login UI
+# 🌌 LumiGate — Futuristic Login UI
 
-LumiGate is a modern, animated login form built with HTML & CSS, designed to give a futuristic glowing gateway feel.
-With smooth spiral ring animations and radiant neon effects, it combines elegance + security + style in one UI.
+A modern, animated login form built with **HTML & CSS**, designed to give a futuristic glowing gateway feel.
+Smooth spiral ring animations and radiant neon effects combine elegance + security + style in one UI.
 
-🔥 Features
+🔗 **Live Demo:** [vivek-lumigate.netlify.app](https://vivek-lumigate.netlify.app)
 
-Spiral glowing rings with animated rotation
+![LumiGate Preview](https://github.com/vivekbhattacharya01-gif/LumiGate/blob/main/LumiGate.gif?raw=true)
 
-Professional color palette (Cyan, Pink, White)
+---
 
-Responsive & centered login card design
+## ✨ Features
 
-Gradient-powered Sign In button
+- 🌀 Spiral glowing rings with smooth animated rotation
+- 🎨 Professional color palette — Cyan, Pink & White
+- 📱 Responsive & centered login card design
+- 🔘 Gradient-powered Sign In button
+- 🖱️ Hover animations for buttons & text links
+- 🧹 Minimal & clean codebase — pure HTML & CSS
 
-Hover animations for buttons & text links
+---
 
-Minimal & clean codebase
+## 🎯 Use Cases
 
-🎯 Use Cases
+- Authentication screens for web apps
+- Portfolio projects to showcase UI/UX skills
+- Creative front-end design experiments
 
-Authentication screens for web apps
+---
 
-Portfolio projects to showcase UI/UX skills
+## 🛠️ Tech Stack
 
-Creative front-end design experiments
+| Category | Technology |
+|---|---|
+| Structure | HTML5 |
+| Styling | CSS3 (Animations, Gradients, Flexbox) |
+| Deployment | Netlify |
 
-🛠️ Tech Stack
+---
 
-HTML5
+## ⚡ Getting Started
 
-CSS3 (Animations, Gradients, Flexbox)
+```bash
+# Clone the repository
+git clone https://github.com/vivekbhattacharya01-gif/LumiGate.git
 
-⚡ Step into the glow — with LumiGate.
+# Go to project folder
+cd LumiGate
 
-## 🎥 Live Demo
+# Open in browser
+open index.html
+```
 
-![LumiGate Animation](https://github.com/vivekbhattacharya01-gif/LumiGate/blob/main/LumiGate.gif?raw=true)
+> No dependencies needed — pure HTML & CSS!
 
-[<video src="./images/lumigate-demo.mp4" width="500" autoplay loop muted></video>](https://github.com/vivekbhattacharya01-gif/LumiGate/blob/main/LumiGate.gif?raw=true)
+---
 
-🔗 **Live Demo:** [Try LumiGate](https://vivek-lumigate.netlify.app)
+## 🗂️ Project Structure
 
+```
+LumiGate/
+│
+├── index.html
+├── style.css
+└── README.md
+```
 
+---
+
+## ⭐ Future Improvements
+
+- [ ] JavaScript form validation
+- [ ] Dark / Light mode toggle
+- [ ] Sign Up page
+- [ ] Backend authentication integration
+- [ ] Accessibility improvements
+
+---
+
+## 👨‍💻 Author
+
+**Vivek Bhattacharya** — Computer Science Student | Frontend Developer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-bhattacharya-9a661528a/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://vivek-lumigate.netlify.app)
+
+---
+
+> ⚡ *Step into the glow — with LumiGate.*
+
+📜 This project is open-source and available under the **MIT License**.
